@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.item-todo {
+  padding: 12px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 15px;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-todo .item-text {
+  flex: 1;
+  margin-right: 10px;
+}
+
+input {
+  padding: 12px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  background: transparent;
+  flex: 1;
+}
+
+button {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.item-delete {
+  font-size: 20px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
